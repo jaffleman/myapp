@@ -1,0 +1,28 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:burlywood;
+}
+label{
+  display: block;
+}
+.nbr-div{
+  width:fit-content;
+  display: inline-block;
+
+}
+fieldset{
+  width: fit-content;
+}
+.regroup{
+  border-radius: 5px;
+  width: 124px;
+}
+a {
+  text-align:center;
+  color: #200792;
+}
+.signature{
+  text-align:center;
+  font-style: italic;
+}

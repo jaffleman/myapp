@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form action="calculator">
+      <fieldset>
+        <legend>Faites votre calcul ici:</legend>
+        <div class="nbr-div">
+          <label for="nbrA">Premier nombre:</label>
+          <input type="number" maxlength="8" size="10" class="regroup" name="A" id="nbrA">
+        </div>
+        <select class="regroup" name="opération" id="opé">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="x">x</option>
+          <option value="/">/</option>
+        </select>
+        <div class="nbr-div">
+          <label for="nbrB">Deuxieme nombre:</label>
+          <input type="number" maxlength="8" size="10" class="regroup" name="B" id="nbrB">
+        </div>
+        <div class="nbr-div">
+          <label for="result">Résultat:</label>
+          <input type="number" maxlength="8" size="10" class="regroup" name="result" id="result" value="0" readonly>
+        </div>
+      </fieldset>
+    </form>
+    <script type="text/javascript" src="/javascripts/moteur.js"></script>
+  </body>
+</html>
